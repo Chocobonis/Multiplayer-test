@@ -1,0 +1,39 @@
+body{
+ color: #ffffff;
+ font-family: "Lucida Console", "Courier New", monospace;
+ background-color: #101010;
+ background-image: linear-gradient(#1b1b1b, #000000);
+}
+
+/* Add a black background color to the top navigation */
+.top_bar {
+  /*osition: absolute;*/
+  margin-left: 0px;
+  margin-top: 0px;
+  top:0px;
+  left:0px;
+  background-color: #070707;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.top_bar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top_bar img{
+ position: left;
+ margin-right: 0px;
+}
+
+/* Change the color of links on hover */
+.top_bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
